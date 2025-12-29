@@ -37,7 +37,7 @@
     "VIDEOS_IN_CONTAINER_XPATH": ".//video[starts-with(@src, 'http')]"
   },
   "authorInfo": {
-    "name": "Tên Của Bạn",
+    "name": "TPT MMO",
     "handle": "@TPTMMO",
     "website": "https://tptmmo.site/",
     "donateLink": "https://zalo.me/g/ucmafk380"

@@ -1,0 +1,8 @@
+{
+  "ver": "1.0",
+  "title": [".attM6y", ".efw5pb", "div[class*='product-title']", ".qaNIZv"],
+  "price": [".pqTWkA", ".G27FPf", "div[class*='price']"],
+  "description": [".product-detail", "div[data-sqe='product_detail']", ".e8lZp3"],
+  "media_container": [".airUhU", ".flex.flex-column", "div[class*='image-list']"],
+  "review": [".shopee-product-rating__content", ".Em3Qhp", ".Rk6V\\+3"]
+}

@@ -42,5 +42,8 @@
     "website": "https://tptmmo.site/",
     "donateLink": "https://tptmmo.site/#contact"
   },
+  "aiConfig": {
+    "modelText": "gemini-3-flash-preview" 
+  },
   "otherTools": []
 }

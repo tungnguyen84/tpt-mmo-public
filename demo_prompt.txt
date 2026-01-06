@@ -1,0 +1,115 @@
+Prompt đầu tiên của bạn.
+Bạn có thể viết nhiều dòng cho prompt này.
+Miễn là bạn chỉ xuống dòng 1 lần.
+
+Đây là prompt thứ hai.
+Nó bắt đầu sau một dòng trống ở trên.
+
+Và đây là prompt thứ ba...
+
+..... Cứ tiếp tục như thế cho đến danh sách prompt!
+
+==================================================
+
+Your first prompt.
+You can write multiple lines for this prompt.
+As long as you only break the line once.
+
+This is the second prompt.
+It starts after a blank line above.
+
+And this is the third prompt...
+
+.....Keep going like this until you get to the prompt list!
+
+==================================================
+
+Ví dụ cụ thể hơn - More specific examples:
+
+Objects: A miniature toy playground with a slide and a fence. A pair of toy orange boots and a tennis ball. A small toy cat statue.
+Action: The boots are bouncing happily, playing with the tennis ball. The tiny toy cat statue is sleeping peacefully in the background. The boots suddenly stop their game, turning their head towards a strange glow.
+Style: A playful, whimsical miniature toy world, with a soft, warm lighting. The scene is shot in a stop-motion style, with subtle, jerky movements.
+Camera: Medium shot, eye-level.
+Atmosphere: Cheerful and bright, with a clear, sunny sky.
+SFX: The light, rhythmic ""pat-pat"" of the boots as they bounce. A tiny, magical ""ting"" sound.
+
+Objects: The toy boots. Three floating plastic toy boxes in red, green, and blue, each with a secure lid.
+Action: A swirling cloud of rainbow-colored smoke appears, partially covering the playground. The boots move back in a surprised, startled manner. The three plastic toy boxes with their secure lids emerge from the smoke, floating and settling on the ground with a soft thud.
+Style: Playful and dramatic. The smoke is non-threatening and stylized.
+Camera: Medium shot, slightly low-angle to emphasize the boxes' appearance.
+Atmosphere: The vibrant, sunny playground is now partially obscured by the whimsical smoke, creating a mysterious contrast.
+SFX: A soft ""whoosh"" of the smoke. A gentle ""plop-plop-plop"" as the boxes land.
+
+==================================================
+
+Hoặc dưới dạng Json
+{
+  "scene_number": 1,
+  "duration_sec": 8,
+  "style": {
+    "visual_style": "3D character animation in the style of Pixar, stylized realism, expressive, vibrant colors, cinematic lighting, soft shadows."
+  },
+  "characters": [
+    {
+      "name": "Hùng Vương",
+      "role": "Unknown",
+      "appearance": "An elderly, majestic King with a golden crown of feathers and traditional Lạc Việt robes."
+    }
+  ],
+  "environment": {
+    "location": "Ancient Lạc Việt Palace, open-air with stone pillars and lush tropical gardens.",
+    "lighting": "Bright morning sunlight filtering through palm leaves.",
+    "mood": "Grand and royal."
+  },
+  "camera": {
+    "shot": "Wide shot",
+    "movement": "Slow zoom in",
+    "focus": "The King"
+  },
+  "veo_prompt": "3D character animation in the style of Pixar, stylized realism, expressive, vibrant colors, cinematic lighting, soft shadows. King Hùng Vương, an elderly majestic King with a golden feather crown, sits on a carved wooden throne in an ancient Lạc Việt palace. Bright morning sunlight filters through palm leaves. Wide shot, slow zoom in.",
+  "dialogue": [
+    {
+      "speaker": "Hùng Vương",
+      "line": "Ta sẽ kén rể cho Mỵ Nương."
+    }
+  ],
+  "audio_tags": "Royal fanfares, chirping tropical birds, soft wind."
+}
+
+{
+  "scene_number": 2,
+  "duration_sec": 8,
+  "style": {
+    "visual_style": "3D character animation in the style of Pixar, stylized realism, expressive, vibrant colors, cinematic lighting, soft shadows."
+  },
+  "characters": [
+    {
+      "name": "Sơn Tinh",
+      "gender": "male",
+      "age": 28,
+      "ethnicity": "Ancient Vietnamese",
+      "appearance": "A heroic Pixar-style mountain deity with warm, sun-kissed skin and glowing amber eyes. He wears stylized Lạc Việt armor crafted from enchanted bark, vines, and gold accents. His expression is noble and calm. Cinematic lighting highlights the earthy textures of his attire.",
+      "hair": "Thick, jet-black hair tied into a high topknot secured with a polished wooden hairpin and a small golden headband.",
+      "body": "Broad-shouldered and powerfully built, possessing a sturdy and grounded physique that reflects the strength of the mountains."
+    }
+  ],
+  "environment": {
+    "location": "Deep vibrant jungle at the foot of a massive mountain.",
+    "lighting": "Dappled sunlight through the canopy, highlighting earthy textures.",
+    "mood": "Mystical and grounded."
+  },
+  "camera": {
+    "shot": "Medium shot",
+    "movement": "Tracking side profile",
+    "focus": "Sơn Tinh"
+  },
+  "veo_prompt": "3D character animation in the style of Pixar, stylized realism, expressive, vibrant colors, cinematic lighting, soft shadows. Sơn Tinh, a heroic mountain deity with amber eyes and bark armor, walks through a vibrant jungle. The earth rises to meet his steps. Dappled sunlight, tracking side profile shot.",
+  "dialogue": [
+    {
+      "speaker": "Sơn Tinh",
+      "line": "Núi cao sẽ che chở cho nàng."
+    }
+  ],
+  "audio_tags": "Heavy footsteps on earth, rustling leaves, deep forest ambience."
+}
+
